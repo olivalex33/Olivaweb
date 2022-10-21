@@ -1,0 +1,108 @@
+body {
+font-family:cursive fantasy;
+}
+
+h1#site-title {
+  font-size: 100px;
+  letter-spacing:-6px;
+  margin top: 0;
+  margin bottom: 1.25em;
+  text-align: center;
+}
+
+h1#article-title {
+  font-size: 25px;
+  letter-spacing: -12px
+  margin top: 0;
+  margin bottom: 1.25em;
+text-align:center;
+
+
+}
+
+p {
+  line-height: 1.25;
+  margin bottom: 1.25em;
+}
+
+figure {
+  margin: 0;
+  border: 1px solid green;
+    padding: 0px;
+    padding-bottom: px;
+
+
+}
+figure img{
+  width: 1260px;
+    height:600px;
+  margin-bottom: 6px;
+
+}
+
+figure.main-image{
+background: green ;
+border-color:  green;
+color: #ffffff;
+}
+
+figure.section-image{
+  margin-bottom:32px;
+  max-width: 10px;
+
+}
+
+figure.section-image.odd {
+  float:middle;
+  margin-left: 0px;
+
+}
+
+figure.section-image.even {
+  float:right;
+  margin-right: 1px;
+
+
+}
+
+p img {
+  float: left;
+  max-width:60;
+  margin-left:20px;
+  margin-bottom:0px;
+
+
+}
+
+nav ul {
+  display:flex;
+  justify-content: center;
+  list-style: none;
+  padding-left: 0;
+  border: 1px solid red;
+
+}
+
+nav ul li {
+
+}
+
+nav ul li a {
+  background-color:Red;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px;
+  border bottom: 1px solid Red;
+  display: block;
+
+}
+
+nav ul li a: hover {
+  background-color: Red;
+
+}
+
+nav ul li: last-child a {
+  border-bottom: none;
+
+}
