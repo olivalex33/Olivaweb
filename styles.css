@@ -1,9 +1,9 @@
 body {
-font-family:"Monospaced font"cursive fantasy;
+font-family:cursive fantasy;
 }
 
 h1#site-title {
-  font-size: 200px;
+  font-size: 100px;
   letter-spacing:-6px;
   margin top: 0;
   margin bottom: 1.25em;
@@ -11,11 +11,11 @@ h1#site-title {
 }
 
 h1#article-title {
-  font-size: 20px;
+  font-size: 25px;
   letter-spacing: -12px
   margin top: 0;
   margin bottom: 1.25em;
-  text-align:center;
+text-align:center;
 
 
 }
@@ -28,15 +28,15 @@ p {
 figure {
   margin: 0;
   border: 1px solid green;
-    padding: 12px;
-    padding-bottom: 24px;
+    padding: 0px;
+    padding-bottom: px;
 
 
 }
 figure img{
-  width: 100%;
-    height: auto;
-  margin-bottom: 12px;
+  width: 1260px;
+    height:600px;
+  margin-bottom: 6px;
 
 }
 
@@ -48,19 +48,19 @@ color: #ffffff;
 
 figure.section-image{
   margin-bottom:32px;
-  max-width: 320px;
+  max-width: 10px;
 
 }
 
 figure.section-image.odd {
-  float:right;
-  margin-left: 20px;
+  float:middle;
+  margin-left: 0px;
 
 }
 
 figure.section-image.even {
   float:right;
-  margin-right: 20px;
+  margin-right: 100px;
 
 
 }
@@ -69,7 +69,7 @@ p img {
   float: left;
   max-width:60;
   margin-left:20px;
-  margin-bottom:32px;
+  margin-bottom:0px;
 
 
 }
