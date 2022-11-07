@@ -1,21 +1,19 @@
 body {
-font-family:cursive fantasy;
+font-family:"HelveticaNeue-Light", "Helvetica Neue light", "HelveticaNeue",
+Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 h1#site-title {
-  font-size: 100px;
-  letter-spacing:-6px;
+  font-size: 72px;
+  letter-spacing:-3px;
   margin top: 0;
   margin bottom: 1.25em;
   text-align: center;
 }
 
-h1#article-title {
-  font-size: 25px;
-  letter-spacing: -12px
-  margin top: 0;
-  margin bottom: 1.25em;
-text-align:center;
+h1#article-title{
+  font-size: 20px;
+  text-align: center;
 
 
 }
@@ -27,49 +25,49 @@ p {
 
 figure {
   margin: 0;
-  border: 1px solid green;
-    padding: 0px;
-    padding-bottom: px;
+  border: 1px solid black;
+    padding: 12px;
+    padding-bottom: 24px;
 
 
 }
 figure img{
-  width: 1260px;
-    height:600px;
-  margin-bottom: 6px;
+  width: 100%;
+    height: auto;
+  margin-bottom: 12px;
 
 }
 
 figure.main-image{
-background: green ;
-border-color:  green;
+background: PaleVioletRed;
+border-color:  MediumVioletRed;
 color: #ffffff;
 }
 
 figure.section-image{
   margin-bottom:32px;
-  max-width: 10px;
+  max-width: 320px;
 
 }
 
 figure.section-image.odd {
-  float:middle;
-  margin-left: 0px;
+  float:right;
+  margin-left: 20px;
 
 }
 
 figure.section-image.even {
-  float:right;
-  margin-right: 1px;
+  float:left;
+  margin-right: 20px;
 
 
 }
 
 p img {
-  float: left;
+  float: right;
   max-width:60;
   margin-left:20px;
-  margin-bottom:0px;
+  margin-bottom:32px;
 
 
 }
@@ -79,7 +77,7 @@ nav ul {
   justify-content: center;
   list-style: none;
   padding-left: 0;
-  border: 1px solid red;
+  border: 1px solid MediumVioletRed;
 
 }
 
@@ -88,17 +86,17 @@ nav ul li {
 }
 
 nav ul li a {
-  background-color:Red;
+  background-color:PaleVioletRed;
   color: #ffffff;
   text-decoration: none;
   padding: 8px;
-  border bottom: 1px solid Red;
+  border bottom: 1px solid MediumVioletRed;
   display: block;
 
 }
 
 nav ul li a: hover {
-  background-color: Red;
+  background-color: MediumVioletRed;
 
 }
 
